@@ -19,6 +19,10 @@ let zkInstance = new ZKLib(ip,port,timeout,4000);
 // routes
 
 // get users
+
+app.get('/',(request, response)=>{
+    response.send("helloe");
+});
 app.get(`/users`,async(request, response)=>{
 
     try {
