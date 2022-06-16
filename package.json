@@ -4,6 +4,7 @@
   "description": "This is basic API for communicating with biometric machine and sending the specified data.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sajid-karim",
