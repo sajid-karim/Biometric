@@ -6,7 +6,7 @@ const db = require('./common/connectdb');
 const app = express();
 
 // PORT
-const PORT = 3000;
+const PORT = process.env.PORT;
 
     // connect the biometric machine
 const ip = `10.1.0.160`;
